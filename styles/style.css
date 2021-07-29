@@ -1,0 +1,36 @@
+/* root */
+*{
+    list-style: none;
+}
+
+p{
+    color: #9aa7ab;
+}
+.btn-orange{
+    background-color: #e76f51;
+    color: white;
+}
+.bg-purple{
+    background-color: #9295DD;
+}
+.text-orange{
+    color: tomato;
+}
+
+/* header*/
+header{
+    background-color: #264653;
+    /* color: white; */
+}
+.reviews{
+    width: 75%;
+}
+.featured-bikes div:nth-child(1), .featured-bikes div:nth-child(3){
+    filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 768px) {
+    .reviews{
+        width: 100%;
+    }
+}
